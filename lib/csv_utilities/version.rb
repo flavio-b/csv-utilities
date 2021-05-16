@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module CsvUtilities
-  VERSION = "0.1.0"
+module CSVUtilities
+  VERSION = "1.0.0"
 end

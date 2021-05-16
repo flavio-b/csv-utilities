@@ -4,20 +4,20 @@ require_relative "lib/csv_utilities/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "csv_utilities"
-  spec.version       = CsvUtilities::VERSION
+  spec.version       = CSVUtilities::VERSION
   spec.authors       = ["Flavio Bombonatti"]
   spec.email         = ["flaviobombonatti@gmail.com"]
 
   spec.summary       = "CSV utilities"
   spec.description   = "CSV utilities"
-  spec.homepage      = ""
+  spec.homepage      = "https://gitlab.com/flavio_b/csv_utilities"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["allowed_push_host"] = ""
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = ""
-  spec.metadata["changelog_uri"] = ""
+  spec.metadata["source_code_uri"] = "https://gitlab.com/flavio_b/csv_utilities"
+  spec.metadata["changelog_uri"] = "https://gitlab.com/flavio_b/csv_utilities"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
